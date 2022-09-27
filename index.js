@@ -16,7 +16,7 @@ module.exports = {
     plugin.parallelBabel = {
 			requireFile: __filename,
 			buildUsing: '_buildPlugin',
-			params: options,
+			params: {},
 		};
 
     registry.add('htmlbars-ast-plugin', plugin);
